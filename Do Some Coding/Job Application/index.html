@@ -6,5 +6,82 @@
     <title>Job Application Form</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Job Application (Web)</h1>
+      </div>
+      <div class="form">
+        <form action="">
+          <!-- Row1 -->
+          <section class="row1">
+            <!-- Column1 -->
+            <div class="col1">
+              <label for="first_name">First Name</label>
+              <input type="text" />
+            </div>
+            <!-- Column2 -->
+            <div class="col2">
+              <label for="last_name">Last Name</label>
+              <input type="text" name="" id="" />
+            </div>
+          </section>
+          <!-- Row2 -->
+          <section class="row2">
+            <!-- Column1 -->
+            <div class="col1">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="" />
+            </div>
+            <!-- Column2 -->
+            <div class="col2">
+              <label for="job_role">Job Role</label>
+              <select name="jobs" id="">
+                <option value="job_role" selected="selected">
+                  Select Job Role
+                </option>
+                <option value="designer">Designer</option>
+                <option value="front_end">Front-End Developer</option>
+                <option value="back_end">Back-End Developer</option>
+              </select>
+            </div>
+          </section>
+          <!-- Row3 -->
+          <section class="row3">
+            <label for="address">Address</label>
+            <textarea name="address" id=""></textarea>
+          </section>
+          <!-- Row4 -->
+          <section class="row4">
+            <!-- Column1 -->
+            <div class="col1">
+              <label for="city">City</label>
+              <input type="text" name="city" id="" />
+            </div>
+            <!-- Column2 -->
+            <div class="col2">
+              <label for="pincode">Pincode</label>
+              <input type="text" name="pincode" id="" />
+            </div>
+          </section>
+          <!-- Row5 -->
+          <section class="row5">
+            <!-- Column1 -->
+            <div class="col1">
+              <label for="start_date">Start Date</label>
+              <input type="date" name="start_date" id="" />
+            </div>
+            <!-- Column2 -->
+            <div class="col2">
+              <label for="cv_upload"> Upload your CV </label>
+              <input type="file" />
+            </div>
+          </section>
+          <section class="row6">
+            <input type="submit" value="Apply Now" />
+          </section>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>
