@@ -11,82 +11,68 @@
       <div class="heading">
         <h1>Job Application <span>(Web)</span></h1>
       </div>
-      <br />
-      <br />
       <div class="form">
         <form action="post">
           <!-- Row1 -->
-          <section class="row1">
-            <!-- Column1 -->
-            <div class="col1">
+          <div class="row">
+            <div class="col">
               <label for="first_name">First Name</label>
-              <input type="text" />
+              <input type="text" id="first_name" name="first_name" />
             </div>
-            <!-- Column2 -->
-            <div class="col2">
+            <div class="col">
               <label for="last_name">Last Name</label>
-              <input type="text" name="" id="" />
+              <input type="text" id="last_name" name="last_name" />
             </div>
-          </section>
-          <span><br /></span>
+          </div>
           <!-- Row2 -->
-          <section class="row2">
-            <!-- Column1 -->
-            <div class="col1">
+          <div class="row">
+            <div class="col">
               <label for="email">Email</label>
-              <input type="email" name="email" id="" />
+              <input type="email" id="email" name="email" />
             </div>
-            <!-- Column2 -->
-            <div class="col2 job_role">
+            <div class="col">
               <label for="job_role">Job Role</label>
-              <select name="jobs" id="">
-                <option value="job_role" selected="selected">
-                  Select Job Role
-                </option>
+              <select id="job_role" name="job_role" autofocus>
+                <option value="" selected>Select a Job Role</option>
                 <option value="designer">Designer</option>
                 <option value="front_end">Front-End Developer</option>
                 <option value="back_end">Back-End Developer</option>
               </select>
             </div>
-          </section>
-          <span><br /></span>
+          </div>
           <!-- Row3 -->
-          <section class="row3">
-            <label for="address">Address</label>
-            <textarea name="address" id=""></textarea>
-          </section>
-          <span><br /></span>
+          <div class="row">
+            <div class="col" style="width: 100%">
+              <label for="address">Address</label>
+              <textarea id="address" name="address"></textarea>
+            </div>
+          </div>
           <!-- Row4 -->
-          <section class="row4">
-            <!-- Column1 -->
-            <div class="col1">
+          <div class="row">
+            <div class="col">
               <label for="city">City</label>
-              <input type="text" name="city" id="" />
+              <input type="text" id="city" name="city" />
             </div>
-            <!-- Column2 -->
-            <div class="col2">
+            <div class="col">
               <label for="pincode">Pincode</label>
-              <input type="text" name="pincode" id="" />
+              <input type="text" id="pincode" name="pincode" />
             </div>
-          </section>
-          <span><br /></span>
+          </div>
           <!-- Row5 -->
-          <section class="row5">
-            <!-- Column1 -->
-            <div class="col1">
+          <div class="row">
+            <div class="col">
               <label for="start_date">Start Date</label>
-              <input type="date" name="start_date" id="" />
+              <input type="date" id="start_date" name="start_date" />
             </div>
-            <!-- Column2 -->
-            <div class="col2 cv">
-              <label for="cv_upload"> Upload your CV </label>
-              <input type="file" />
+            <div class="col">
+              <label for="cv_upload">Upload your CV</label>
+              <input type="file" id="cv_upload" name="cv_upload" />
             </div>
-          </section>
-          <span><br /></span>
-          <section class="row6">
+          </div>
+          <!-- Row6 -->
+          <div class="row row6">
             <input type="submit" value="Apply Now" />
-          </section>
+          </div>
         </form>
       </div>
     </div>
