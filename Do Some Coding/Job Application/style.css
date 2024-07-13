@@ -4,3 +4,44 @@
   box-sizing: border-box;
 }
 
+form {
+  background-color: antiquewhite;
+}
+
+.container {
+  background-color: #e5e5fd;
+  min-height: fit-content;
+  border: 5px solid #1d1e4c;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6 {
+  display: flex;
+  justify-content: center;
+}
+
+.row6 {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+}
+
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
