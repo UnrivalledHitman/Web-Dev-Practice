@@ -37,7 +37,8 @@ form {
   color: white;
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 80%;
+  max-width: 600px;
   border-radius: 20px;
   margin: 0 auto;
   padding: 25px;
@@ -80,6 +81,20 @@ input[type="submit"]:hover {
   background-color: #45a049;
 }
 
-textarea{
+textarea {
   height: 100px;
+}
+
+/* Media Queries for Responsive Design */
+
+@media (min-width: 768px) {
+  form {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1024px) {
+  form {
+    width: 50%;
+  }
 }
