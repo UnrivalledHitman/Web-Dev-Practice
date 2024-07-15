@@ -13,3 +13,12 @@ body {
   line-height: 1.8em;
   color: #666;
 }
+
+.pimg{
+    background-image: url('./images/image1.png');
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
