@@ -35,7 +35,6 @@ body {
   min-height: 400px;
 }
 
-/* Parallax Text */
 .ptext {
   position: absolute;
   top: 50%;
@@ -66,4 +65,34 @@ body {
 .section-dark {
   background-color: #282e34;
   color: #ddd;
+}
+
+@media (max-width: 768px) {
+  .ptext {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+
+  .textBg {
+    padding: 15px;
+  }
+
+  .section {
+    padding: 30px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ptext {
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+
+  .textBg {
+    padding: 10px;
+  }
+
+  .section {
+    padding: 20px;
+  }
 }
