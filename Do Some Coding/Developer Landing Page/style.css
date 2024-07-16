@@ -54,3 +54,11 @@
 .frame2{
     background-color: rgba(114, 35, 0, 1);
 }
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: max-content;
+    justify-content: center;
+}
