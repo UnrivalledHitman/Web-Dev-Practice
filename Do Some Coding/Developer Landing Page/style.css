@@ -4,11 +4,20 @@
   box-sizing: border-box;
 }
 
-.header {
+.bg_image_with_text {
+  display: flex;
+  flex-direction: column;
   background-image: url(./images/developer.png);
-  min-height: 100vh;
+  min-height: 80vh;
   background-position: center;
-  background-size: cover;
+  background-size: fi;
   background-repeat: no-repeat;
   color: white;
+  align-items: center;
+}
+
+.intro_text {
+  min-height: 20vh;
+  background-color: rgba(22, 22, 25, 1);
+  color: rgba(255, 255, 255, 1);
 }
