@@ -17,7 +17,8 @@
   font-size: 30px;
 }
 
-#big_text1, #big_text2{
+#big_text1,
+#big_text2 {
   font-size: 54px;
 }
 
@@ -55,7 +56,7 @@
   line-height: 1.7rem;
 }
 
-.frame h2{
+.frame h2 {
   margin-top: 10px;
 }
 
