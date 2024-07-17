@@ -14,6 +14,11 @@
   background-repeat: no-repeat;
   color: white;
   align-items: center;
+  font-size: 30px;
+}
+
+#big_text1, #big_text2{
+  font-size: 54px;
 }
 
 .intro_text {
