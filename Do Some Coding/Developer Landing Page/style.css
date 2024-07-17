@@ -31,7 +31,7 @@
 }
 
 .main img {
-  border: 5px solid black;
+  border-radius: 15px;
 }
 
 .frame {
@@ -39,7 +39,7 @@
   flex-direction: column;
   width: fit-content;
   margin: 40px 20px;
-  box-shadow: 5px 5px rgb(204, 203, 203);
+  box-shadow: 5px 5px 5px rgb(204, 203, 203);
   border-radius: 15px;
   padding: 10px 5px;
 }
@@ -67,7 +67,7 @@ footer {
   display: flex;
   background-color: black;
   color: white;
-  height:7vh;
+  height: 7vh;
   justify-content: center;
   align-items: center;
   font-size: larger;
