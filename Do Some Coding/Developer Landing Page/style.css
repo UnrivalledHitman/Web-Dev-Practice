@@ -10,16 +10,15 @@
   background-image: url(./images/developer.png);
   min-height: 80vh;
   background-position: center;
-  background-size: cover;
+  background-size: fi;
   background-repeat: no-repeat;
   color: white;
   align-items: center;
-  justify-content: center;
   font-size: 30px;
-  text-align: center;
 }
 
-.big_text {
+#big_text1,
+#big_text2 {
   font-size: 54px;
 }
 
@@ -29,25 +28,21 @@
   background-color: rgba(22, 22, 25, 1);
   color: rgba(255, 255, 255, 1);
   align-items: center;
-  justify-content: center;
   font-size: 30px;
+  justify-content: center;
 }
 
-.highlight {
+#intro_text {
   font-size: 50px;
 }
 
 .main {
   display: flex;
   justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding: 20px;
 }
 
 .main img {
   border-radius: 15px;
-  max-width: 100%;
-  height: auto;
 }
 
 .frame {
@@ -57,9 +52,8 @@
   margin: 40px 20px;
   box-shadow: 5px 5px 5px rgb(204, 203, 203);
   border-radius: 15px;
-  padding: 10px 20px;
+  padding: 10px 5px;
   line-height: 1.7rem;
-  background-color: white;
 }
 
 .frame h2 {
@@ -68,20 +62,24 @@
 
 .footer {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  padding: 25px;
-  background-color: black;
-  color: white;
 }
 
-.footer .frame {
-  background-color: transparent;
+.frame1 {
+  background-color: rgba(81, 86, 3, 1);
+}
+
+.frame2 {
+  background-color: rgba(114, 35, 0, 1);
+}
+
+.frame1,
+.frame2 {
+  padding: 25px;
   text-align: justify;
   color: white;
 }
 
-.credit {
+footer {
   display: flex;
   background-color: black;
   color: white;
