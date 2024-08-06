@@ -10,9 +10,23 @@
   margin: 0 auto;
   justify-content: space-between;
   width: 90vw;
-  height: 30px;
+  height: 50px;
 }
 
 .vector {
-  padding: 8px;
+  padding: 14px;
 }
+
+.introduction{
+    display: grid;
+    margin: 50px 200px;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.hero > img{
+    width: 75%;
+    height: 75%;
+}
+
