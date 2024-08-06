@@ -4,3 +4,15 @@
   border: 0;
   box-sizing: border-box;
 }
+
+.navbar {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  width: 90vw;
+  height: 30px;
+}
+
+.vector {
+  padding: 8px;
+}
