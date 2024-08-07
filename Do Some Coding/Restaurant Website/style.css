@@ -152,3 +152,29 @@ body {
   height: 40px;
   width: 40px;
 }
+
+.green-box {
+  background: rgba(20, 159, 57, 1);
+  color: white;
+  width: fit-content;
+  height: 30px;
+  font-size: 28px;
+  border-radius: 5px;
+  padding: 0 4px;
+}
+
+.bigger-text {
+  font-size: 45px;
+}
+
+.orange-box {
+  display: flex;
+  background: rgba(255, 192, 102, 1);
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 28px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
