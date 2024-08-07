@@ -78,6 +78,7 @@ body {
 
 .grid-item {
   width: 100%;
+  height: 100%;
 }
 
 .grid-image {
@@ -87,10 +88,18 @@ body {
 
 .item1 {
   grid-area: I1;
+  height: auto;
+  width: 100%;
+  display: flex;
 }
+
 .item2 {
   grid-area: I2;
+  height: auto;
+  width: 100%;
+  display: flex;
 }
+
 .item3 {
   grid-area: I3;
 }
@@ -103,8 +112,12 @@ body {
 .item6 {
   grid-area: I6;
 }
+
 .item7 {
   grid-area: I7;
+  height: auto;
+  width: 100%;
+  display: flex;
 }
 
 /* Footer Section */
