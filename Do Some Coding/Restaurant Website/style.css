@@ -9,7 +9,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -23,7 +22,6 @@ body {
   padding: 14px;
 }
 
-/* Introduction Section */
 .introduction {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -41,7 +39,6 @@ body {
   margin: 10px 0;
 }
 
-/* Features Section */
 .features {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -59,7 +56,6 @@ body {
   margin: 10px 0;
 }
 
-/* Menu Section */
 .menu > p {
   text-align: center;
   margin: 50px 0;
@@ -120,14 +116,13 @@ body {
   display: flex;
 }
 
-/* Footer Section */
 .footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-items: center;
   margin: 50px 200px;
   padding: 20px 0;
-  background-color: #f8f8f8;
+  background-color: rgba(255, 240, 219, 1);
 }
 
 .footer-col {
@@ -141,7 +136,7 @@ body {
 }
 
 .footer-col > input {
-  width: 100px;
+  width: 200px;
   border: 5px solid blank;
 }
 
